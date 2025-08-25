@@ -10,5 +10,9 @@
       <input type="text" name="user_input" required>
       <button type="submit">Submit</button>
     </form>
+
+    {% if text %}
+      <h1>{{ text }}</h1>
+    {% endif %}
   </body>
 </html>
